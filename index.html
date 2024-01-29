@@ -1,65 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Bootstrap Icons CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-
-  <body>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="script.js">
+    
+</head>
+<body>
     <div class="container">
-      <div class="content-container">
-        <div class="content">
-          <h1>Hey there! <br> I'm Silla,</h1>
-          <p>A seasoned Full Stack Software Engineer with a knack for crafting impactful solutions. With 6 months of experience under my belt, I thrive on the challenges of turning ideas into reality through code.</p>
-          <a href="Resume.pdf" download><button id="downloadBtn"><i class="bi bi-download"></i> &nbsp; Resume</button></a>
+        <div class="image-container">
+            <img src="my.jpg" alt="Image" class="round-image">
         </div>
-      </div>
-
-      <img src="index.jpg" class="profile-image">
-      <button class="hamburger">&#9776;</button>
-
-      <div class="navbar">
-        <a href="#">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#connect">Connect</a>
-      </div>
-
-      <div class="section" id="about">
-        <h2>About me?</h2>
-        <h4>Crafting Impactful Solutions</h4>
-        <p>Throughout my career, I've had the privilege of working on diverse projects, each presenting its own set of challenges and opportunities. From developing scalable web applications to architecting robust backend systems, I've honed my skills across the full spectrum of software development.</p>
-
-        <h4>Embracing Curiosity</h4>
-        <p>Beyond the screen, I'm an avid observer of the world around me. Whether it's watching cats gracefully navigate their surroundings or marveling at the intricacies of nature's designs, I find inspiration in the beauty of the everyday. This curiosity fuels my creativity and drives me to constantly explore new technologies and methodologies.</p>
-        <h4>Exploring Beyond Boundaries</h4>
-        <p>I'm not just passionate about code; I'm also passionate about life. You'll often find me venturing outdoors, soaking in the wonders of nature or immersing myself in different cultures. These experiences broaden my perspective and inform my approach to problem-solving, allowing me to bring fresh insights to every project I undertake.</p>
-      </div>
-
-      <div class="section" id="connect">
-        <h2>Let's Connect!</h2>
-        <p>Whether you're looking to collaborate on a project, discuss the latest tech trends, or simply share stories about our favorite feline friends, or if you're looking to hire me <i class="far fa-id-badge"></i>, I'd love to connect with you. Feel free to reach out, and let's embark on this exciting journey together!</p>
-        <div style="color:#4CAF50; text-align:center;">
-          <a href="mailto:sillak2001@gmail.com" style="color:#4CAF50; text-decoration:none;"><i class="bi bi-envelope-at-fill"></i></a>&nbsp;&nbsp;
-          <a href="http://linkedin.com/in/silla-k" style="color:#4CAF50; text-decoration:none;"><i class="bi bi-linkedin"></i></a>&nbsp;&nbsp;
-          <a href="YOUR_INSTAGRAM_URL_HERE" style="color:#4CAF50; text-decoration:none;"><i class="fab fa-instagram-square"></i></a>&nbsp;&nbsp;
-          <a href="https://github.com/silla2807/" style="color:#4CAF50; text-decoration:none;"><i class="fab fa-github"></i></a>
-          <br>
-          <br>
-        </div>
-      </div>
+        <h1>
+            Hi, I'm Silla
+            <p class="intro">
+                A seasoned Full Stack Software Engineer with a knack for crafting impactful solutions.
+            </p>
+            <p class="intro">
+                NITC'23 | B.Tech Computer Science and Engineering | 6.48
+            </p>
+            ---------------------------------------------
+        </h1>
+        
+   
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="Resume.pdf" id="downloadBtn"><i class="bi bi-download"></i> &nbsp; Resume</a></li>
+        </ul>
+    </nav>
+    
+    <section id="about-me">
+        <h2>About Me</h2>
+         <p>Throughout my career, I've had the privilege of working on diverse projects, each presenting its own set of challenges and opportunities. From developing scalable web applications to architecting robust backend systems, I've honed my skills across the full spectrum of software development.</p>
+            <p>Beyond the screen, I'm an avid observer of the world around me. Whether it's watching cats gracefully navigate their surroundings or marveling at the intricacies of nature's designs, I find inspiration in the beauty of the everyday. This curiosity fuels my creativity and drives me to constantly explore new technologies and methodologies.</p>
+            <p>I'm not just passionate about code; I'm also passionate about life. You'll often find me venturing outdoors, soaking in the wonders of nature or immersing myself in different cultures. These experiences broaden my perspective and inform my approach to problem-solving, allowing me to bring fresh insights to every project I undertake.</p>
+       
+    </section>
+     <div class="social-icons">
+        <a href="mailto:sillak2001@gmail.com" ><i class="bi bi-envelope-at-fill"></i></a>&nbsp;&nbsp;
+                <a href="http://linkedin.com/in/silla-k" ><i class="bi bi-linkedin"></i></a>&nbsp;&nbsp;
+                <a href="YOUR_INSTAGRAM_URL_HERE" ><i class="fab fa-instagram-square"></i></a>&nbsp;&nbsp;
+                <a href="https://github.com/silla2807/"><i class="fab fa-github"></i></a>
     </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
-  </body>
-  <footer>
-    <p>&copy; Silla K</p>
-  </footer>
-
+</div>
+</body>
 </html>
